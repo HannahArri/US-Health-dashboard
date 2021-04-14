@@ -9,6 +9,7 @@ and is publicly available on https://www.data.gov/.
 Additionally, you will need to install the following python packages using pip:
 - Flask
 - psycog2
+
 For the dataset, you will need to have a user called cmsc828d created and a database called a3database. You can replace these values with your default settings
 within the db_connection.py file
 

@@ -18,7 +18,7 @@ The project will need to generate 10000000 records and populate the database whi
 
 Once this is complete, open your browser and use this url to access the dashboard http://127.0.0.1:8000/
 
-#Tasks
+# Tasks
 You will be allowed to explore the interface for a few minutes. Once complete, please click on start and proceed to answer the questions. When you are done with the tasks, you will be redirected to a google form to complete a short survey.
 
 **Please upload the user_logs.txt file from the root folder through the google form. **

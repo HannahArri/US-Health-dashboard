@@ -1,0 +1,24 @@
+.content {
+    max-width: 960px;
+    /* width: 75%; */
+    margin: auto;
+}
+    
+.input_table {
+    width: 450px;
+    background:  rgb(236, 228, 228);
+    margin: auto;
+}
+    
+.field_name {
+    text-align: right;
+    width: 200px;
+}
+
+.field_value {
+    text-align: left;
+    width: 300px;
+}
+
+.
+

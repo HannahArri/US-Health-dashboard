@@ -1,0 +1,21 @@
+/* https://www.w3schools.com/Css/css_navbar.asp has a SERC-like nav bar */
+
+.navbar {
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding:0;
+    text-align: center;
+    /* position: fixed; */
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    display:inline-block;
+    padding:10px;
+    color:rgb(148, 18, 18)
+}

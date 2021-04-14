@@ -1,0 +1,59 @@
+{%extends 'base.html' %}
+
+{% block body%}
+
+		
+		<!--================================PAGE TITLE==========================================-->
+		<div class="page-title-wrap bggray-1 padding-top-30 padding-bottom-30 bgwhite"><!-- section title -->
+			<h4 class="white">WELCOME</h4>
+		</div><!-- section title end -->
+	
+		<!-- ======================================Geomap section================================= -->
+		<p style="font-size:large; padding: 15px; align:justify ">
+			This visualization shows the variation of hospital charges in the various hospitals in the US for the top 100 diagnoses.
+			This visualization will show you how the price of healthcare in the same city can vary differently across different counties. <br><br>
+
+			Using this visualization, please answer the following question:<br>
+			<b id='question'>What are the top 3 counties with the highest cost of average total healthcare payments?<br> 
+				<i>Please enter the name of the county and the corresponding state in parentheses "()" in the text box below</i>
+			</b>
+			<br>
+			<textarea id='answerbox' style="width: 900px; height: 100px;"></textarea><br>
+			<button id='submit'>Submit</button>
+			<button id='startbutton' hidden>Start</button>
+		</p>
+			<div class="ui grid">
+				<div class="row">
+					<div style="margin-left: 50px;">
+						<label> Choose View</label><select style='margin-left: 5px;' id="levels"></select>
+					</div>
+
+					<div class = "eleven wide column">
+						<div style='padding-left: 50px;'id='viz_buttons'> </div>
+					</div>
+						
+				</div>
+				<div class="row">
+					<!-- <div class="thirteen wide column">  -->
+						<div style='padding-left: 20px; margin-left: 50px;' class='ui segment'>
+							<div id = 'geomap' style="display: inline;">
+	
+							</div>
+							<div id='bar' style="display: inline;">
+	
+							</div>
+						</div>
+						
+						<div style='padding-left: 50px;'id='bar_buttons'></div>	
+					<!-- </div> -->
+					<!-- <div class="thirteen wide column" > -->
+						
+							
+					<!-- </div> -->
+						
+				</div>
+			</div>
+		
+{% endblock %}
+</body>
+</html>

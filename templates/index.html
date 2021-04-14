@@ -1,0 +1,56 @@
+{%extends 'base.html' %}
+
+{% block body%}
+
+		
+		<!--================================PAGE TITLE==========================================-->
+		<div class="page-title-wrap bggray-1 padding-top-30 padding-bottom-30 bgwhite"><!-- section title -->
+			<h4 class="white">WELCOME</h4>
+		</div><!-- section title end -->
+	
+		<!-- ======================================Geomap section================================= -->
+		<p style="font-size:large; padding: 15px; text-align: center;">
+			This dashboard shows the variation of hospital charges in the various hospitals in the US for the top 100 diagnoses.
+			This dashboard highlights how the price of healthcare in the same city can vary differently across different counties.
+			<br> <br>
+			You will be evaluating this dashboard through two tasks. For each task you will be asked to answer a question using the visualizations in this dashboard. <br>
+			Please spend some time familiarizing yourself with the dashboard and click the start button below when you are ready to begin the task.
+			<br><br>
+			<button id='startbutton' style="size: 25px;">Start</button>
+		</p>
+			<div class="ui grid">
+				<div class="row">
+					<div style="margin-left: 50px;">
+						<label> Choose View</label><select style='margin-left: 5px;' id="levels"></select>
+					</div>
+
+					<div class = "eleven wide column">
+						<div style='padding-left: 50px;'id='viz_buttons'> </div>
+					</div>
+						
+				</div>
+				<div class="row">
+					<!-- <div class="thirteen wide column">  -->
+						<div style='padding-left: 20px; margin-left: 50px;' class='ui segment'>
+							<div id = 'geomap' style="display: inline;">
+	
+							</div>
+							<div id='bar' style="display: inline;">
+	
+							</div>
+						</div>
+						
+						<div style='padding-left: 50px;'id='bar_buttons'></div>	
+					<!-- </div> -->
+					<!-- <div class="thirteen wide column" > -->
+						
+							
+					<!-- </div> -->
+						
+				</div>
+			</div>
+
+		
+{% endblock %}
+</body>
+</html>

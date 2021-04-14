@@ -13,7 +13,10 @@ Additionally, you will need to install the following python packages using pip:
 For the dataset, you will need to have a user called cmsc828d created and a database called a3database. You can replace these values with your default settings
 within the db_connection.py file
 
-Once this is complete, navigate to the project directory on your local system within the terminal and run python3 Routes.py.
+Once this is complete, navigate to the project directory on your local system within the terminal and run 
+
+```python3 Routes.py.```
+
 The project will need to generate 10000000 records and populate the database which may take a few minutes. 
 
 Once this is complete, open your browser and use this url to access the dashboard http://127.0.0.1:8000/
